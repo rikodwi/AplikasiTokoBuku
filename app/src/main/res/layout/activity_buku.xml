@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context=".BukuActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Judul Buku"
+        android:textStyle="bold"
+        android:textSize="15sp"/>
+    <EditText
+        android:id="@+id/txJudul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Judul"
+        android:inputType="textCapSentences"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Pengarang"
+        android:textStyle="bold"
+        android:textSize="15sp"/>
+    <EditText
+        android:id="@+id/txPengarang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pengarang"
+        android:inputType="textCapSentences"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Harga Buku"
+        android:textStyle="bold"
+        android:textSize="15sp"/>
+    <EditText
+        android:id="@+id/txHarga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Harga"
+        android:inputType="textCapSentences"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jumlah Buku"
+        android:textStyle="bold"
+        android:textSize="15sp"/>
+    <EditText
+        android:id="@+id/txJumlah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Jumlah"
+        android:inputType="textCapSentences"
+        android:layout_marginBottom="10dp"/>
+
+</LinearLayout>

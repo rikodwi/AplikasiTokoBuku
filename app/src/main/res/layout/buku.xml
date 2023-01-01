@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:weightSum="10">
+
+    <TextView
+        android:id="@+id/tvJudul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Judul Buku"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/tvPengarang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama Pengarang"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/tvHarga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Harga Buku"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/tvJumlah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jumlah Buku"
+        android:textSize="16sp"/>
+
+
+
+</LinearLayout>
